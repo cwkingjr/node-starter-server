@@ -1,5 +1,5 @@
-# cwking-api
-APIs for cwking.com
+# Secure Node Starter Server 
+Not secure yet
 
 # Getting started with server app
 
@@ -13,6 +13,6 @@ APIs for cwking.com
     git clone repo to local folder
     cd into folder
     npm install
-    nodemon index.js
+    nodemon server.js
     open browser to http://localhost:3000/
     see png's for registering via json and confirming token is working

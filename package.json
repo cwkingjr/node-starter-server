@@ -1,34 +1,28 @@
 {
-  "name": "cwking-api",
+  "name": "node-starter-server",
   "version": "0.0.2-alpha",
-  "description": "cwking.com API Server",
+  "description": "Secure Node Starter Server (In Work)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charwking/cwking-api.git"
+    "url": "git+https://github.com/cwkingjr/node-starter-server.git"
   },
   "author": {
-    "name": "Charles King"
+    "name": "Chuch King"
   },
-  "contributors": [
-    {
-      "name": "Chuck King",
-      "url": "https://github.com/cwkingjr"
-    }
-  ],
   "engines": {
     "node": ">=4.4.7"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/charwking/cwking-api/issues"
+    "url": "https://github.com/cwkingjr/node-starter-server/issues"
   },
-  "homepage": "https://github.com/charwking/cwking-api#readme",
+  "homepage": "https://github.com/cwkingjr/node-starter-server#readme",
   "private": true,
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "~1.13.2",
     "bcrypt-nodejs": "0.0.3",
