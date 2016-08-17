@@ -1,22 +1,21 @@
 'use strict';
 
-const express = require('express'),
-      app = express(),
-      bodyParser = require('body-parser'),
-      logger = require('morgan'),
-      router = require('./router'),
-      mongoose = require('mongoose'),
-      config = require('./config/main');
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const logger = require('morgan');
+const router = require('./router');
+const mongoose = require('mongoose');
+const config = require('./config/main');
 
 mongoose.connect(config.database_url);
 
 const server = app.listen(config.port);
 console.log(`Your server is running on port ${config.port}.`);
 
-// Setting up basic middleware for all Express requests
-app.use(bodyParser.urlencoded({ extended: false })); // Parses urlencoded bodies
-app.use(bodyParser.json()); // Send JSON responses
-app.use(logger('dev')); // Log requests to API using morgan
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(logger('dev'));
 
 // Enable CORS from client-side
 app.use(function(req, res, next) {
