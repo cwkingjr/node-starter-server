@@ -1,6 +1,6 @@
 # Secure Node Starter Server 
 Not secure yet
-Needs https, secure cookie auth token
+Needs https, secure cookie auth token, cookie parser, passport-jwt cookie extractor function
 
 # Getting started with server app
 
