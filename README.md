@@ -3,6 +3,8 @@ Not secure yet
 
 Needs https, secure cookie auth token, cookie parser, passport-jwt cookie extractor function
 
+See: https://stormpath.com/blog/nodejs-jwt-create-verify for cookie example
+
 # Getting started with server app
 
     Terminal 1:
