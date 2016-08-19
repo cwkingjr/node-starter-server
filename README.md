@@ -1,5 +1,6 @@
 # Secure Node Starter Server 
 Not secure yet
+Needs https, secure cookie auth token
 
 # Getting started with server app
 
@@ -14,5 +15,5 @@ Not secure yet
     cd into folder
     npm install
     nodemon server.js
-    open browser to http://localhost:3000/
+    open browser to https://localhost:3000/
     see png's for registering via json and confirming token is working
