@@ -30,6 +30,8 @@ const UserSchema = new Schema({
 });
 
 UserSchema.pre('save', function(next) {
+	// If the user password is changed, hash it before saving
+
 	const user = this;
     const SALT_FACTOR = 5;
 
@@ -49,7 +51,6 @@ UserSchema.pre('save', function(next) {
 UserSchema.methods.comparePassword = function(candidatePassword, cb) {
 	bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
     	if (err) { return cb(err); }
-
     	cb(null, isMatch);
 	});
 }

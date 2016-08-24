@@ -1,5 +1,5 @@
 const authController = require('./auth/auth-controller');
-const userController = require('./auth/user-controller');
+const userController = require('./user/user-controller');
 const mailgunController = require('./mailgun/mailgun-controller');
 const express = require('express');
 const passportService = require('./config/passport');
