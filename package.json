@@ -7,7 +7,7 @@
     "url": "git+https://github.com/cwkingjr/node-starter-server.git"
   },
   "author": {
-    "name": "Chuch King"
+    "name": "Chuck King (cwkingjr)"
   },
   "engines": {
     "node": ">=4.4.7"
