@@ -1,6 +1,8 @@
 # Secure Node Starter Server 
 Not secure yet
 
+[![Build Status](https://travis-ci.org/cwkingjr/node-starter-server.svg?branch=master)](https://travis-ci.org/cwkingjr/node-starter-server)
+
 # Getting started with server app
 
     Terminal 1:
